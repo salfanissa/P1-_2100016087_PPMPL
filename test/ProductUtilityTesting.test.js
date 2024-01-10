@@ -2,7 +2,7 @@ const {
   convertToRupiah,
   countDiscount,
   setProductsCards,
-} = require('../src/dataUtils.js'); // Update the path accordingly
+} = require('../src/dataUtils.js'); 
 
 test('should convert price to Rupiah format - Positive Case', async () => {
   const price = 100;
