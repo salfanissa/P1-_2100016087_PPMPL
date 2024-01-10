@@ -39,7 +39,7 @@ test('should count discount correctly - Negative Case', () => {
 test('should set product cards correctly', async () => {
   const productData = [
     { id: 1, title: 'Product 1', price: 100, discountPercentage: 10, image: 'url1' },
-    // Add more sample data if needed
+    
   ];
 
   const cards = await setProductsCards(productData);
@@ -48,5 +48,5 @@ test('should set product cards correctly', async () => {
   expect(cards[0]).toHaveProperty('id');
   expect(cards[0]).toHaveProperty('title');
   expect(cards[0]).toHaveProperty('price');
-  // Add more assertions based on the structure of your product cards
+  
 });
